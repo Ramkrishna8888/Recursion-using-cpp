@@ -3,10 +3,10 @@
 using namespace std;
 int powerr(int n,int p)
 {
-// Base case
+// This is the Base case
     if(p==0)
       return 1;
-//Recursive relation
+//This is the Recursive relation
    int smallproblem= powerr(n-1);
   int ans = n*smallproblem;
   return ans;
