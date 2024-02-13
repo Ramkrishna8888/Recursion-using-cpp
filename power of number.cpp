@@ -1,4 +1,4 @@
-//2^n using recursion
+//2^n (Power of 2) using recursion
 #include<bits/stdc++.h>
 using namespace std;
 int powerr(int n,int p)
