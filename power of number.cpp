@@ -18,6 +18,7 @@ int main()
     cin>>n;
     cout<<"Enter 2^n "<<endl;
      cin>>p;
+    // function calling
      int answer = powerr(n,p);
      cout<<"The power is : "<<answer;
    return 0;
